@@ -82,58 +82,16 @@ namespace media_desvio_e_moda
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Exercício Media, Desvio e Moda");
+            Console.WriteLine("Exercício Media e Desvio Padrão");
             Console.ResetColor();
             Console.WriteLine();
 
             Console.Write("=> Criação de um vetor de 10 alturas e elaboração ");
-            Console.WriteLine("de algoritmos que calculem a média, o desvio padrão e a moda entre as alturas.");
+            Console.WriteLine("de algoritmos que calculem a média e o desvio padrão entre as alturas.");
             Console.Write("--------------------------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine();
         }
-
-        static void primeiraVersão()
-        {
-            // Console.Write("- Insira a primeira altura...: ");
-            // alturas[0] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a segunda altura....: ");
-            // alturas[1] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a terceira altura...: ");
-            // alturas[2] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a quarta altura.....: ");
-            // alturas[3] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a quinta altura.....: ");
-            // alturas[4] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a sexta altura......: ");
-            // alturas[5] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a sétima altura.....: ");
-            // alturas[6] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a oitava altura.....: ");
-            // alturas[7] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a nona altura.......: ");
-            // alturas[8] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-
-            // Console.Write("- Insira a décima altura.....: ");
-            // alturas[9] = Convert.ToDouble(Console.ReadLine());
-            // Console.WriteLine();
-        }
     }
 }
+
